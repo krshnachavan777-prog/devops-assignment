@@ -5,7 +5,7 @@ students = [{"id": 1, "name": "Krishna", "course": "CSE"}]
 
 @app.route("/")
 def home():
-    return jsonify({"message": "Student API Running"})
+    return jsonify({"message": "Student Management API Running"})
 
 @app.route("/health")
 def health():
